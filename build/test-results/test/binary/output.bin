@@ -1,0 +1,18 @@
+s19:52:41,130 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+¶19:52:41,130 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/C:/Users/pjeno/IdeaProjects/project1/build/resources/main/logback.xml]
+j19:52:41,250 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+–19:52:41,250 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+q19:52:41,264 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [myConsoleAppender]
+¶19:52:41,271 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+“19:52:41,303 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.FileAppender]
+n19:52:41,314 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [MyFileAppender]
+¶19:52:41,315 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+s19:52:41,316 |-INFO in ch.qos.logback.core.FileAppender[MyFileAppender] - File property is set to [Mylogfile.log]
+t19:52:41,316 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+Š19:52:41,316 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [myConsoleAppender] to Logger[ROOT]
+Å19:52:41,321 |-ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [myFileAppender]. Did you define it below instead of above in the configuration file?
+”19:52:41,321 |-ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
+h19:52:41,321 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+‹19:52:41,323 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@3a385271 - Registering current configuration as safe fallback point
+
+T31 03 2022 - 19:52:41 [Test worker] INFO  java.sql.Driver - login function invoked
